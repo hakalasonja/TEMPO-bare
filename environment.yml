@@ -5,4 +5,9 @@ channels:
 dependencies:
   - python==3.10.9
   - numpy
+  - matplotlib
+  - qutip
+  - pip:
+    - readthedocs-sphinx-ext
+  - sphinx
 prefix: /opt/anaconda3/envs/nvsim-env
